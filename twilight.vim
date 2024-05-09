@@ -3,12 +3,6 @@
 " Copyright (C) 2008 Jonathan Rudenberg <jonathan@titanous.com>  
 " Copyright (C) 2024 Ramon Asuncion <ramon@b1t.dev>
 
-" Author: Jonathan Rudenberg
-"  Ramon Asuncion
-" Keywords: textmate twilight color theme
-" URL:  https://github.com/RamonAsuncion/twilight-theme
-" Version: 0.1
-
 " Permission is hereby granted, free of charge, to any person
 " obtaining a copy of this software and associated documentation
 " files (the "Software"), to deal in the Software without
