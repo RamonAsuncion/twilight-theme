@@ -24,16 +24,6 @@
 " FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 " OTHER DEALINGS IN THE SOFTWARE.
 
-
-" TODO:
-" 1. Alignment is horrile if you do `cat` on this file. Get a plugin like mini.align.
-" 2. This theme only seems to support GUIs. I have to do `set termguicolors`
-"   https://gist.github.com/titanous/316974
-" You can see with this one seems more complex: https://github.com/cocopon/iceberg.vim/blob/master/colors/iceberg.vim
-" 3. Alternative twilight theme to possibly fix and issue and start with?
-"   https://github.com/matthewtodd/vim-twilight/blob/master/colors/twilight.vim
-" 4. Alternative https://github.com/vim-scripts/twilight256.vim/blob/master/colors/twilight256.vim
-
 " Support only 256 or full colors
 if !has('gui_running') && &t_Co < 256
   finish
@@ -51,57 +41,59 @@ endif
 " Name of the color scheme
 let g:colors_name = "twilight"
 
-" General
-hi Normal 	    guibg=#141414 guifg=#F8F8F8
-hi Cursor 	    guibg=#CDA869
-hi Visual 	    guibg=#27292A
+" Basic color settings
+hi Normal       guifg=#F8F8F8 guibg=#141414
+hi Cursor       guifg=NONE    guibg=#CDA869
+hi CursorLine   guifg=NONE    guibg=#1B1B1B
+hi CursorColumn guifg=NONE    guibg=#1B1B1B
+hi LineNr       guifg=#868686 guibg=#141414
+hi VertSplit    guifg=#3F3F3F guibg=#3F3F3F
+hi MatchParen   guifg=#CDA869 guibg=NONE
+hi StatusLine   guifg=#F8F8F8 guibg=#3F3F3F gui=bold
+hi StatusLineNC guifg=#F8F8F8 guibg=#3F3F3F
+hi TabLine      guifg=#F8F8F8 guibg=#3F3F3F
+hi TabLineFill  guifg=#F8F8F8 guibg=#3F3F3F
+hi TabLineSel   guifg=#F8F8F8 guibg=#3F3F3F gui=bold
+hi Pmenu        guifg=#9B703F guibg=NONE
+hi PmenuSel     guifg=NONE    guibg=#3C4043
+hi IncSearch    guifg=NONE    guibg=#343A44
+hi Search       guifg=NONE    guibg=#343A44
+hi Directory    guifg=#CF6A4C guibg=NONE
+hi Folded       guifg=#5F5A60 guibg=#141414
 
 " Syntax highlighting
-hi Comment  	  guifg=#5F5A60
-hi Constant 	  guifg=#CF6A4C
-hi String 	    guifg=#8F9D6A guibg=NONE
-hi Number 	    guifg=#CF6A4C
-hi Boolean 	    guifg=#CF6A4C
-hi Identifier   guifg=#7587A6 guibg=#5d6c84
-hi Function 	  guifg=#9B703F
-hi Statement 	  guifg=#CDA869
-hi Keyword 	    guifg=#CDA869
-hi PreProc 	    guifg=#CF6A4C
-hi Type 	      guifg=#89788a
-hi Special 	    guifg=#CF6A4C
-hi Operator 	  guifg=#CDA869
+hi Comment      guifg=#5F5A60
+hi Constant     guifg=#CF6A4C
+hi Identifier   guifg=#7587A6
+hi Statement    guifg=#a28655
+hi PreProc      guifg=#CDA869
+hi Type         guifg=#89788a
+hi Special      guifg=#F8F8F8
+hi Underlined   guifg=NONE    guibg=NONE gui=underline
+hi Ignore       guifg=NONE    guibg=NONE
+hi Todo         guifg=#5F5A60 guibg=NONE gui=bold
+hi String       guifg=#8F9D6A
+hi Function     guifg=#9B703F
+hi Conditional  guifg=#a28655
+hi Repeat       guifg=#CDA869
+hi Operator     guifg=#CDA869
+hi Keyword      guifg=#CDA869
+hi Exception    guifg=#CDA869
+hi Include      guifg=#CF6A4C
+hi Define       guifg=#CDA869
+hi Title        guifg=#F8F8F8 gui=bold
+hi Float        guifg=#CF6A4C
+hi Number       guifg=#CF6A4C
+hi Boolean      guifg=#CF6A4C
+hi Character    guifg=#CF6A4C
+hi Label        guifg=#8F9D6A
+hi NonText      guifg=#4F4F4F guibg=#141414
+hi SpecialKey   guifg=#4F4F4F guibg=#1B1B1B
+hi StorageClass guifg=#F9EE98
+hi Tag          guifg=#9B703F
+hi Delimiter    guifg=#F8F8F8
+hi SpecialChar  guifg=#CF6A4C
+hi SpecialComment guifg=#5F5A60 gui=italic
+hi Debug        guifg=#CF6A4C
+hi Trace        guifg=#CF6A4C
 
-" Line Numbers
-hi LineNr 	    guifg=#2D2B2E guibg=#141314
-hi CursorLineNr guifg=yellow  guibg=#141314
-
-" Search
-hi Search    	  guibg=#111111
-hi IncSearch 	  guifg=#000000 guibg=#F8F8F8
-
-" Status Line
-hi StatusLine 	guifg=#F8F8F8 guibg=#141414
-hi StatusLineNC guifg=#5F5A60 guibg=#141414
-
-" Diff
-hi DiffAdd    	guibg=#8F9D6A
-hi DiffChange 	guibg=#CDA869
-hi DiffDelete 	guibg=#CF6A4C
-
-" Fold
-hi Folded 	guifg=#808080 guibg=#141414
-
-" Error
-hi Error 	  guifg=#FF0000
-
-" Completion menu
-hi Pmenu    	  guifg=#F8F8F8 guibg=#444444
-hi PmenuSel 	  guifg=#000000 guibg=#f8f8f8
-
-" Popup menu
-hi WildMenu 	  guifg=#F8F8F8 guibg=#444444
-
-" VertSplit
-hi VertSplit 	  guifg=#444444 guibg=#444444
-
-"" twilight.vim ends here
