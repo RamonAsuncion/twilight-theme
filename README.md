@@ -4,7 +4,7 @@
 
 ## Preview
 
-
+![preview-theme](https://github.com/RamonAsuncion/twilight-theme/assets/40077628/71be6f6c-68cd-41c8-90f4-852332790926)
 
 ## Usage
 
