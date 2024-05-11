@@ -4,7 +4,7 @@
 
 # Preview
 
-![preview-theme](https://github.com/RamonAsuncion/twilight-theme/assets/40077628/71be6f6c-68cd-41c8-90f4-852332790926)
+![preview-image](https://github.com/RamonAsuncion/twilight-theme/assets/40077628/4cb24197-0a6b-45e6-a73b-c11c907911ea)
 
 > **_NOTE:_** I am using [nvim-treesitter](https://tree-sitter.github.io/tree-sitter/) with highlight disabled.
 
