@@ -12,6 +12,8 @@
 
 To enable the Twilight Vim theme, place the theme file in the `~/.vim/colors` directory and then run `:colorscheme twilight` in Vim.
 
+To ensure the Twilight Vim theme displays correctly in the terminal, enable `termguicolors` by adding `set termguicolors` to your `.vimrc` file.
+
 # Contribution
 
 I'm open to contributions and feedback to enhance the Twilight TextMate Vim theme!
