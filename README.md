@@ -6,6 +6,8 @@
 
 ![preview-theme](https://github.com/RamonAsuncion/twilight-theme/assets/40077628/71be6f6c-68cd-41c8-90f4-852332790926)
 
+> **_NOTE:_** I am using [nvim-treesitter](https://tree-sitter.github.io/tree-sitter/) with highlight disabled.
+
 ## Usage
 
 To enable the Twilight Vim theme, place the theme file in the ~/.vim/colors directory and then run :colorscheme twilight in Vim.
