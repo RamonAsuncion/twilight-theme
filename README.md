@@ -10,7 +10,7 @@
 
 # Usage
 
-To enable the Twilight Vim theme, place the theme file in the ~/.vim/colors directory and then run :colorscheme twilight in Vim.
+To enable the Twilight Vim theme, place the theme file in the `~/.vim/colors` directory and then run `:colorscheme twilight` in Vim.
 
 # Contribution
 
