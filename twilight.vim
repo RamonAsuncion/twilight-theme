@@ -65,7 +65,7 @@ hi Folded       guifg=#5F5A60 guibg=#141414
 hi Comment      guifg=#5F5A60
 hi Constant     guifg=#CF6A4C
 hi Identifier   guifg=#7587A6
-hi Statement    guifg=#a28655
+hi Statement    guifg=#a28655 gui=None
 hi PreProc      guifg=#CDA869
 hi Type         guifg=#89788a
 hi Special      guifg=#F8F8F8
@@ -80,7 +80,7 @@ hi Operator     guifg=#CDA869
 hi Keyword      guifg=#CDA869
 hi Exception    guifg=#CDA869
 hi Include      guifg=#CF6A4C
-hi Define       guifg=#CDA869
+hi Define       guifg=#CF6A4C
 hi Title        guifg=#F8F8F8 gui=bold
 hi Float        guifg=#CF6A4C
 hi Number       guifg=#CF6A4C
@@ -96,4 +96,4 @@ hi SpecialChar  guifg=#CF6A4C
 hi SpecialComment guifg=#5F5A60 gui=italic
 hi Debug        guifg=#CF6A4C
 hi Trace        guifg=#CF6A4C
-
+hi PreProc      guifg=#CF6A4C
