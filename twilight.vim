@@ -1,5 +1,6 @@
 " twilight.vim --- Twilight Color Scheme for Vim.
 
+" Copyright (C) 2008 Jonathan Rudenberg <jonathan@titanous.com>
 " Copyright (C) 2024 Ramon Asuncion <ramon@b1t.dev>
 
 " Permission is hereby granted, free of charge, to any person
@@ -67,12 +68,14 @@ hi Constant     guifg=#CF6A4C
 hi Identifier   guifg=#7587A6
 hi Statement    guifg=#a28655 gui=None
 hi PreProc      guifg=#CDA869
-hi Type         guifg=#89788a
+hi Type         guifg=#89788a gui=None
 hi Special      guifg=#F8F8F8
 hi Underlined   guifg=NONE    guibg=NONE gui=underline
 hi Ignore       guifg=NONE    guibg=NONE
 hi Todo         guifg=#5F5A60 guibg=NONE gui=bold
 hi String       guifg=#8F9D6A
+hi Character    guifg=#8F9D6A
+hi SpecialChar  guifg=#8F9D6A
 hi Function     guifg=#9B703F
 hi Conditional  guifg=#a28655
 hi Repeat       guifg=#CDA869
@@ -85,14 +88,12 @@ hi Title        guifg=#F8F8F8 gui=bold
 hi Float        guifg=#CF6A4C
 hi Number       guifg=#CF6A4C
 hi Boolean      guifg=#CF6A4C
-hi Character    guifg=#CF6A4C
 hi Label        guifg=#8F9D6A
 hi NonText      guifg=#4F4F4F guibg=#141414
 hi SpecialKey   guifg=#4F4F4F guibg=#1B1B1B
 hi StorageClass guifg=#F9EE98
 hi Tag          guifg=#9B703F
 hi Delimiter    guifg=#F8F8F8
-hi SpecialChar  guifg=#CF6A4C
 hi SpecialComment guifg=#5F5A60 gui=italic
 hi Debug        guifg=#CF6A4C
 hi Trace        guifg=#CF6A4C
