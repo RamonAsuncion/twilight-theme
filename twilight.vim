@@ -42,7 +42,6 @@ endif
 " Name of the color scheme
 let g:colors_name = "twilight"
 
-" Basic color settings
 hi Normal       guifg=#F8F8F8 guibg=#141414
 hi Cursor       guifg=NONE    guibg=#CDA869
 hi CursorLine   guifg=NONE    guibg=#1B1B1B
@@ -61,12 +60,10 @@ hi IncSearch    guifg=NONE    guibg=#343A44
 hi Search       guifg=NONE    guibg=#343A44
 hi Directory    guifg=#CF6A4C guibg=NONE
 hi Folded       guifg=#5F5A60 guibg=#141414
-
-" Syntax highlighting
 hi Comment      guifg=#5F5A60
 hi Constant     guifg=#CF6A4C
 hi Identifier   guifg=#7587A6
-hi Statement    guifg=#a28655 gui=None
+hi Statement    guifg=#CDA869 gui=None
 hi PreProc      guifg=#CDA869
 hi Type         guifg=#89788a gui=None
 hi Special      guifg=#F8F8F8
@@ -77,7 +74,7 @@ hi String       guifg=#8F9D6A
 hi Character    guifg=#8F9D6A
 hi SpecialChar  guifg=#8F9D6A
 hi Function     guifg=#9B703F
-hi Conditional  guifg=#a28655
+hi Conditional  guifg=#CDA869
 hi Repeat       guifg=#CDA869
 hi Operator     guifg=#CDA869
 hi Keyword      guifg=#CDA869
@@ -88,13 +85,14 @@ hi Title        guifg=#F8F8F8 gui=bold
 hi Float        guifg=#CF6A4C
 hi Number       guifg=#CF6A4C
 hi Boolean      guifg=#CF6A4C
-hi Label        guifg=#8F9D6A
+hi Label        guifg=#CDA869
 hi NonText      guifg=#4F4F4F guibg=#141414
 hi SpecialKey   guifg=#4F4F4F guibg=#1B1B1B
-hi StorageClass guifg=#F9EE98
+hi StorageClass guifg=#CDA869
 hi Tag          guifg=#9B703F
 hi Delimiter    guifg=#F8F8F8
 hi SpecialComment guifg=#5F5A60 gui=italic
 hi Debug        guifg=#CF6A4C
 hi Trace        guifg=#CF6A4C
 hi PreProc      guifg=#CF6A4C
+hi cTypedef     guifg=#CDA869 gui=None
