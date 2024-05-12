@@ -42,6 +42,7 @@ endif
 " Name of the color scheme
 let g:colors_name = "twilight"
 
+" General color settings
 hi Normal       guifg=#F8F8F8 guibg=#141414
 hi Cursor       guifg=NONE    guibg=#CDA869
 hi CursorLine   guifg=NONE    guibg=#1B1B1B
@@ -60,6 +61,8 @@ hi IncSearch    guifg=NONE    guibg=#343A44
 hi Search       guifg=NONE    guibg=#343A44
 hi Directory    guifg=#CF6A4C guibg=NONE
 hi Folded       guifg=#5F5A60 guibg=#141414
+
+" Syntax Highlighting
 hi Comment      guifg=#5F5A60
 hi Constant     guifg=#CF6A4C
 hi Identifier   guifg=#7587A6
@@ -94,5 +97,7 @@ hi Delimiter    guifg=#F8F8F8
 hi SpecialComment guifg=#5F5A60 gui=italic
 hi Debug        guifg=#CF6A4C
 hi Trace        guifg=#CF6A4C
+
+" C
 hi PreProc      guifg=#CF6A4C
 hi cTypedef     guifg=#CDA869 gui=None
