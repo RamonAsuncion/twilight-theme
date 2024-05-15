@@ -67,7 +67,6 @@ hi Comment      guifg=#5F5A60
 hi Constant     guifg=#CF6A4C
 hi Identifier   guifg=#7587A6
 hi Statement    guifg=#CDA869 gui=None
-hi PreProc      guifg=#CDA869
 hi Type         guifg=#89788a gui=None
 hi Special      guifg=#F8F8F8
 hi Underlined   guifg=NONE    guibg=NONE gui=underline
@@ -83,7 +82,6 @@ hi Operator     guifg=#CDA869
 hi Keyword      guifg=#CDA869
 hi Exception    guifg=#CDA869
 hi Include      guifg=#CF6A4C
-hi Define       guifg=#CF6A4C
 hi Title        guifg=#F8F8F8 gui=bold
 hi Float        guifg=#CF6A4C
 hi Number       guifg=#CF6A4C
@@ -101,3 +99,5 @@ hi Trace        guifg=#CF6A4C
 " C
 hi PreProc      guifg=#CF6A4C
 hi cTypedef     guifg=#CDA869 gui=None
+hi cDefine       guifg=#CF6A4C
+
